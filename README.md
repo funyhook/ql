@@ -3,7 +3,7 @@
 # ql
 青龙自用脚本（python环境为3.11.x）
 ```javascript
-ql repo https://github.com/funyhook/ql_py.git "hook_" "backup" "notify|utils" ""
+ql repo https://github.com/funyhook/ql.git "hook_" "backup" "notify|utils" ""
 ```
 
 # 特别声明
