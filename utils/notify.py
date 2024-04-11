@@ -774,7 +774,7 @@ def parse_body(body, content_type):
             parsed[key] = val
 
     if content_type == "application/x-www-form-urlencoded":
-        data = urlencode(parsed, doseq=True)
+        data = urllib.urlencode(parsed, doseq=True)
         return data
 
     if content_type == "application/json":
