@@ -19,5 +19,5 @@ if __name__ == '__main__':
             if data:
                 exec(data)
     except Exception as e:
-        print(f"Python版本不符合{e}")
+        print(e.with_traceback())
         print("Python 版本：", sys.version)
