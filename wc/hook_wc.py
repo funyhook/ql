@@ -2,9 +2,6 @@
 cron: 0 9 * * *
 new Env('app_望潮');
 * 反馈群：https://t.me/vhook_wool
-变量：多个账号用换行
-export hook_wc="手机号&密码
-手机号#密码"
 """
 import sys
 from  utils import notify,common
