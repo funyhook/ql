@@ -1,20 +1,23 @@
 """
-cron: 30 9 * * *
-new Env('hook_鱼儿阅读');
+cron: 0 9 * * *
+new Env('app_望潮');
+* 反馈群：https://t.me/vhook_wool
+变量：多个账号用换行
+export hook_wc="手机号&密码
+手机号#密码"
 """
-
 import sys
 
 if __name__ == '__main__':
 
     version_info = sys.version_info
     print("Python 版本：", sys.version[:4], version_info.minor)
-    path = f"../yuer/{version_info.minor}.py"
+    path = f"../wc/{version_info.minor}.py"
     try:
         with open(path, "r", encoding="utf-8") as f:
             data = f.read()
             if data:
                 exec(data)
-    except Exception as  e:
+    except Exception as e:
         print(f"Python版本不符合{e}")
         print("Python 版本：", sys.version)
