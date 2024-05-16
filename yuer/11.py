@@ -2,9 +2,8 @@
 cron: 30 9 * * *
 new Env('hook_鱼儿阅读');
 """
-
-
-# 项目：hook_yuer.py
+# ============
+# 项目：11.py
 # 时间：2024-05-16 10:27:52
 # 运行环境：python3.11.x
 import sys
