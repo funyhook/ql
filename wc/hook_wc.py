@@ -7,7 +7,9 @@ export hook_wc="手机号&密码
 手机号#密码"
 """
 import sys
-
+from  utils import notify,common
+print(notify.push_config)
+print(common.PYTHON_VERSION)
 if __name__ == '__main__':
 
     version_info = sys.version_info
