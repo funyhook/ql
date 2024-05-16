@@ -1,6 +1,6 @@
 """
 cron: 0 9 * * *
-new Env('app_望潮');
+new Env('app_甬派');
 * 反馈群：https://t.me/vhook_wool
 """
 import sys
